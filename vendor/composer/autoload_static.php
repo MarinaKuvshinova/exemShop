@@ -286,6 +286,7 @@ class ComposerStaticInitd3178dbb33cda2518c8a48edaab54db5
     );
 
     public static $classMap = array (
+        'App\\Category' => __DIR__ . '/../..' . '/app/Category.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
@@ -299,11 +300,13 @@ class ComposerStaticInitd3178dbb33cda2518c8a48edaab54db5
         'App\\Http\\Middleware\\RedirectIfAuthenticated' => __DIR__ . '/../..' . '/app/Http/Middleware/RedirectIfAuthenticated.php',
         'App\\Http\\Middleware\\TrimStrings' => __DIR__ . '/../..' . '/app/Http/Middleware/TrimStrings.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
+        'App\\Item' => __DIR__ . '/../..' . '/app/Item.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+        'App\\Size' => __DIR__ . '/../..' . '/app/Size.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'ArithmeticError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
         'AssertionError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
@@ -315,6 +318,11 @@ class ComposerStaticInitd3178dbb33cda2518c8a48edaab54db5
         'Carbon\\Translator' => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon/Translator.php',
         'CreatePasswordResetsTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_100000_create_password_resets_table.php',
         'CreateTableCategories' => __DIR__ . '/../..' . '/database/migrations/2018_12_06_184516_create_table_categories.php',
+        'CreateTableImages' => __DIR__ . '/../..' . '/database/migrations/2018_12_07_111128_create_table_images.php',
+        'CreateTableItems' => __DIR__ . '/../..' . '/database/migrations/2018_12_07_094644_create_table_items.php',
+        'CreateTableSizes' => __DIR__ . '/../..' . '/database/migrations/2018_12_07_092350_create_table_sizes.php',
+        'CreateTableSizesItem' => __DIR__ . '/../..' . '/database/migrations/2018_12_07_113430_create_table_sizesItem.php',
+        'CreateTableSizesItemes' => __DIR__ . '/../..' . '/database/migrations/2018_12_07_113702_create_table_sizesItemes.php',
         'CreateUsersTable' => __DIR__ . '/../..' . '/database/migrations/2014_10_12_000000_create_users_table.php',
         'Cron\\AbstractField' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/AbstractField.php',
         'Cron\\CronExpression' => __DIR__ . '/..' . '/mtdowling/cron-expression/src/Cron/CronExpression.php',

@@ -184,6 +184,7 @@
                 </div>
             </div>
         </div>
+        @endsection
         @section('footer')
             <script src="{{asset('plugins/flexslider/jquery.flexslider-min.js')}}"></script>
             <script src="{{asset('js/product.js')}}"></script>

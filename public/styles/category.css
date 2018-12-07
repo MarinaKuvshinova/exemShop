@@ -1494,3 +1494,16 @@ section
 	color: #969696;
 	font-weight: 300;
 }
+.page_nav ul {
+    -ms-flex-pack: center!important;
+    justify-content: center!important;
+    -ms-flex-direction: row!important;
+    flex-direction: row!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+.page_nav ul li span{
+    font-size: 14px;
+    display: block;
+    line-height: 28px;
+}
